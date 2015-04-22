@@ -7,7 +7,7 @@ default: lab07
 	g++ -c $< -o $@
 
 lab07: $(OBJECTS)
-	g++ $(OBJECTS) -o $@
+	g++ -g $(OBJECTS) -o $@
 
 clean:
 	-rm -f $(OBJECTS)

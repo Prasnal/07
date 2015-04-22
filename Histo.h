@@ -6,7 +6,7 @@
 
 class Histo{
 public:
-  float tab[SIZE];
+  int tab[SIZE];
   int  wartownik;
   std::string name;
   int  nbBins;
