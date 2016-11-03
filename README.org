@@ -1,7 +1,5 @@
-# Histogram
-Histogram C++
-
-Usage:
+*Histogram
+**Usage:
 $ make
 $ ./<program-name>
 
