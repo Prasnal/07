@@ -1,5 +1,6 @@
 *Histogram
-**Usage:
+
+Usage:
 $ make
 $ ./<program-name>
 
