@@ -12,3 +12,5 @@ lab07: $(OBJECTS)
 clean:
 	-rm -f $(OBJECTS)
 	-rm -f lab07
+	
+	
