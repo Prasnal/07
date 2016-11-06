@@ -27,7 +27,6 @@ void Histo::norm() {
 
 void Histo::add(float liczba) {
   int szerokosc = rangeEnd - rangeStart;
-  // std::cout << "szer: " << szerokosc << "\n";
 
   if (liczba < rangeStart) {
     tab[0]++;
@@ -36,7 +35,6 @@ void Histo::add(float liczba) {
     tab[wartownik-1]++;
   }
   else {
-    // int kubelek=szerokosc/nbBins;
     int index=ceil(((liczba-rangeStart)/szerokosc)*nbBins);
     tab[index]++;
   }
@@ -64,7 +62,6 @@ Histo::Histo(std::string napis, int costam, float costam2, float costam3) {
   rangeStart=costam2;
   rangeEnd=costam3;
                 
-  //  std::cout<<"name: " << name <<"\n nbBins: " << nbBins<< "\n range: [ " << rangeStart <<" ; " << rangeEnd<<"] \n" ;
     std::cout << "Histo:: default constructor\nHisto:: constructor\nname:: hist2\nnbins:: 4\nrange:: [-4,4]\n";
 
      
